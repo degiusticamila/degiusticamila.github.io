@@ -44,12 +44,15 @@ body {
     color: #222;
     font-weight: bold;
 }
+
+/* Logo / foto de perfil en el header */
 .logo img {
-  width: 48px;
-  height: 48px;
-  object-fit: cover;
-  border-radius: 50%;
+  width: 40px;          /* tamaño controlado */
+  height: 40px;
+  object-fit: cover;   /* recorta sin deformar */
+  border-radius: 50%;  /* circular */
 }
+
 
 /* SECTIONS */
 section {
