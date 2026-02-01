@@ -249,6 +249,7 @@ body.dark .tech-card p {
 /* CONTACT */
 .contact-list {
     list-style: none;
+    max-width: 500px;
     margin-top: 15px;
 }
 
