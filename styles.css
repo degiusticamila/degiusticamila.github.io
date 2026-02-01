@@ -278,3 +278,42 @@ body.dark .tech-card p {
         max-width: 100%;
     }
 }
+.contact-section {
+  padding: 4rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  font-size: 1rem;
+}
+
+.contact-item img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.contact-item a:hover {
+  color: #0077b5; /* LinkedIn blue (queda bien en general) */
+}
