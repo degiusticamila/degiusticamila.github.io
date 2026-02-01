@@ -315,7 +315,7 @@ body.dark .tech-card p {
 }
 
 .contact-item a:hover {
-  color: #0077b5; /* LinkedIn blue (queda bien en general) */
+  color: #0077b5; 
 }
 .contact-item:hover img {
   transform: scale(1.1);
