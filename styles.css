@@ -85,8 +85,12 @@ section {
     border-radius: 12px;
     padding: 20px;
     background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}    
 /* ===== CARRUSEL ===== */
 .carrusel-contenedor {
     position: relative;
@@ -192,7 +196,7 @@ section {
 /*RESPONSIVE */
 @media (max-width: 768px) {
     .nav-links {
-        display: none; /* simple y limpio */
+        display: none; 
     }
 
     section {
