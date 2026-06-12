@@ -45,14 +45,6 @@ body {
     font-weight: bold;
 }
 
-/* Logo / foto de perfil en el header */
-.logo img {
-  width: 40px;          /* tamaño controlado */
-  height: 40px;
-  object-fit: cover;   /* recorta sin deformar */
-  border-radius: 50%;  /* circular */
-}
-
 
 /* SECTIONS */
 section {
