@@ -233,7 +233,7 @@ body:has(button:hover) .cursor-ring {
     min-height: 100vh;
     padding-top: var(--header-h);
     display: grid;
-    grid-template-columns: 1fr 480px;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;
     align-items: center;
     max-width: 1200px;
