@@ -498,6 +498,9 @@ body:has(button:hover) .cursor-ring {
     margin-right: auto;
     filter: saturate(0.9) brightness(1.1);
 }
+.tech-card img.invert-icon {
+    filter: invert(1) brightness(1.1);
+}
 .tech-card p {
     font-size: 0.8rem;
     font-weight: 500;
