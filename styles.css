@@ -599,6 +599,15 @@ body:has(button:hover) .cursor-ring {
 }
 .project-link svg { transition: transform 0.2s var(--ease-out); }
 .project-link:hover svg { transform: translate(3px, -3px); }
+.project-link-static {
+    color: var(--text-muted);
+    border-color: var(--border);
+    cursor: default;
+}
+.project-link-static:hover {
+    color: var(--text-muted);
+    border-color: var(--border);
+}
 
 /* Carrusel */
 .carrusel-contenedor {
